@@ -27,8 +27,8 @@ package main
 // 		return
 // 	}
 
-// 	for i, nilai := range nilai {
-// 		fmt.Printf("%d: Pelajaran: %s nilai: %d\n", i+1, nilai.pelajaran, nilai.nilai)
+// 	for _, nilai := range nilai {
+// 		fmt.Printf("Pelajaran: %s nilai: %d\n", nilai.pelajaran, nilai.nilai)
 // 		if reflect.TypeOf(nilai.nilai) != reflect.TypeOf(0) {
 // 			fmt.Println("tipe data harus integer")
 // 			return
@@ -53,8 +53,9 @@ package main
 // 	} else if rataRata >= 0 && rataRata <= 59 {
 // 		grade = "E"
 // 	} else {
-// 		grade = "Nilai invalid"
+// 		grade = "Nilai tidak valid"
 // 	}
 // 	fmt.Println("Rata-rata nilai: ", rataRata)
 // 	fmt.Println("Grade nilai: ", grade)
+
 // }

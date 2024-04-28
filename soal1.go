@@ -8,7 +8,7 @@ package main
 
 // func main() {
 // 	//buat variable berdasarkan tipe data
-// 	var name string = "123"
+// 	var name string = "Dimas"
 // 	var age int = 24
 // 	var height float64 = 175.2
 // 	var isMeried bool = false
